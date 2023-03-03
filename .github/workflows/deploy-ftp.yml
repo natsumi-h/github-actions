@@ -37,6 +37,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           # protocol: ${{ secrets.FTP_PROTOCOL }}
           # port: ${{ secrets.FTP_PORT}}
-          # server-dir: ${{ secrets.FTP_REMOTE_ROOT }}
+          server-dir: ${{ secrets.FTP_REMOTE_ROOT }}
           local-dir: ./out/
           dangerous-clean-slate: true
